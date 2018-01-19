@@ -10,7 +10,6 @@ void loop() {
   int time = millis();
   Serial.print(time);
   Serial.println("sec have elapsed");
-  Serial.println("hi");
   digitalWrite(13, HIGH);
   delay(500);
   digitalWrite(13, LOW);
